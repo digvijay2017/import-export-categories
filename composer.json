@@ -1,0 +1,21 @@
+{
+    "name": "digvijay2017/import-export-categories",
+    "description": "Magento 2 Module for import and export categories",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/module-catalog": ">100.0",
+        "magento/module-backend": ">100.0",
+        "magento/framework": ">100.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Tutorialstab\\ImportExportCategories\\": ""
+        }
+    }
+}

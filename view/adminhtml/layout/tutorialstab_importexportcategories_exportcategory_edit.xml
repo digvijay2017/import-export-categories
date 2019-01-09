@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Tutorialstab\ImportExportCategories\Block\Adminhtml\Exportcategory\Edit" name="tutorialstab_exportcategory_category_edit"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Tutorialstab\ImportExportCategories\Block\Adminhtml\Exportcategory\Edit\Tabs" name="tutorialstab_exportcategory_category_tabs">
+                <block class="Tutorialstab\ImportExportCategories\Block\Adminhtml\Exportcategory\Edit\Tab\Exportcategory" name="tutorialstab_exportcategory_exportcategory_edit_tab"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">exportcategories</argument>
+                    <argument name="block" xsi:type="string">tutorialstab_exportcategory_exportcategory_edit_tab</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
