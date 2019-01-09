@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+
+        <add id="Tutorialstab_ImportExportCategories::importcategory" title="Category Import/Export"  module="Tutorialstab_ImportExportCategories"  sortOrder="20" resource="Tutorialstab_ImportExportCategories::importcategory" />
+        <add id="Tutorialstab_ImportExportCategories::importexportcategory" title="Import Categories" module="Tutorialstab_ImportExportCategories" sortOrder="10" action="tutorialstab_importexportcategories/importcategory/new" resource="Tutorialstab_ImportExportCategories::importexportcategory" parent="Tutorialstab_ImportExportCategories::importcategory"/>
+        <add id="Tutorialstab_ImportExportCategories::exportcategory" title="Export Categories" module="Tutorialstab_ImportExportCategories" sortOrder="12" action="tutorialstab_importexportcategories/exportcategory/new" resource="Tutorialstab_ImportExportCategories::importexportcategory" parent="Tutorialstab_ImportExportCategories::importexportcategory"/>
+    </menu>
+</config>
